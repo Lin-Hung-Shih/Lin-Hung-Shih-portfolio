@@ -1,0 +1,139 @@
+* {
+
+  box-sizing:border-box;
+
+}
+
+input[type="text"], input[type="password"] {
+
+  width:100%;
+  display:inline-block;
+  padding:8px 5px;
+  margin:10px 0;
+
+}
+
+.modal {
+
+  display:none;
+  background-color:rgba(0,0,0,0.4);
+  width:100%;
+  height:100%;
+  position:fixed;
+  top:0;
+  left:0;
+  overflow:auto;
+  padding:60px;
+
+}
+
+.modal_content {
+
+  width:50%;
+  border:1px solid #888;
+  margin:auto;
+  background-color:#f9f9f9;
+  position:relative;
+
+}
+
+.container {
+
+  position:relative;
+  padding:16px 20px;
+
+}
+
+.avatar {
+
+  border-radius:50%;
+  width:40%;
+
+}
+
+.img_container {
+
+  width:80%;;
+  text-align:center;
+  margin:auto;  
+  padding:24px 16px 0 16px;
+
+}
+
+button {
+
+  width:100%;
+  background-color:#34c018;
+  border:none;
+  color:white;
+  padding:10px;
+  font-size:15px;
+  font-weight:bold;
+  margin: 10px 0;
+  cursor:pointer;
+
+}
+
+.cancel {
+
+  width:auto;
+  background-color:#ef4827;
+
+}
+
+.forgot {
+  
+  position:absolute;
+  right:10px;
+  top:43%;
+
+}
+
+.times {
+
+  position:absolute;
+  right:0;
+  font-size:40px;
+  color:red;
+  padding:8px 16px;
+  cursor:pointer;  
+
+}
+
+.animate {
+
+  animation:animatezoom 0.6s;
+
+}
+
+@keyframes animatezoom {
+
+  from { transform:scale(0) }
+
+  to { transform:scale(1) }
+
+}
+
+/* 改變 forgetpassword style ，當 螢幕大小太小時 */
+
+@media screen and (max-width:500px) {
+
+  .forgot {
+
+    position:relative;
+    display:inline-block;
+    width:100%;
+    text-align:center;
+
+  }
+
+  .cancel {
+
+    width:100%;
+
+  }
+
+}
+
+
+

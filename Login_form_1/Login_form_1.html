@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+
+<meta charset="UTF-8" >
+
+<meta name="view-port" content="width=device-width, initial-scale=1.0" >
+
+<link rel="stylesheet" href="mystyle.css">
+
+
+</head>
+
+
+<body>
+
+<button style="width:auto" onclick="document.getElementsByClassName('modal')[0].style.display='block' "> Login </button>
+
+<div class="modal">
+
+  <form class="modal_content animate">
+
+     <span onclick="document.getElementsByClassName('modal')[0].style.display='none'" class="times"> &times; </span>
+
+     <div class="img_container">
+
+      <img src="img_avatar.png" alt="avatar" class="avatar">
+
+     </div>
+
+    <div class="container">
+
+        <label for="name"> <b> Username </b> </label>
+        <input type="text" name="name" placeholder="Enter Username"> 
+
+        <label for="psw"> <b> Password </b> </label>
+        <input type="password" name="psw" placeholder="Enter Password" id="psw"> 
+
+        <!-- show password -->
+        <label> <input type="checkbox" id="show" onclick="show_password()"> Show Password </label>
+
+        <!-- 須提交檔案，所以 type 用 submit!! -->
+
+        <button type="submit"> Login </button>
+
+        <label> <input type="checkbox" checked > Remember me? </label>
+
+    </div>
+
+    <div class="container" style="background-color:#e1e1e1;">
+
+      <!-- 單純取消彈跳視窗的按鈕 -->
+
+      <button class="cancel" onclick="document.getElementsByClassName('modal')[0].style.display='none'"> Cancel </button>
+
+      <span class="forgot"> Forgot <a href="#"> password? </a> </span>
+
+    </div>
+
+  </div>
+
+  </form>
+
+</div>
+
+<!-- 設置點選框框外會取消 modal 視窗 -->
+
+<script>
+
+  let modals = document.getElementsByClassName("modal");
+
+  // modals 是變數喔!! 不是 string ，所以不用加雙引號喔~
+
+  window.onclick=function(event) {
+
+    if (event.target== modals[0]) {
+
+      modals[0].style.display="none";
+  }
+
+}
+
+</script>
+
+<!-- show password function -->
+
+<script>
+
+  let shows=document.getElementById("psw");
+
+  function show_password() {
+
+    // 為何要三個等號?
+
+    if (shows.type === "password") {
+
+      shows.type = "text";
+
+    }
+    
+    else {
+
+      shows.type = "password";
+
+    }
+
+}
+  
+
+</script>
+
+
+</body>
+
+
+</html>
+
