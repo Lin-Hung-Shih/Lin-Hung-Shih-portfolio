@@ -6,7 +6,7 @@ Login_form_1
 
 點選 Login button 即會彈跳出一個登入視窗
 
-除了點選Cancel按鈕和叉叉能離開視窗，點選是窗外任何一個地方也能離開視窗
+除了點選Cancel按鈕和叉叉能離開視窗，點選視窗外任何一個地方也能離開視窗
 
 加入了一些 RWD 的設計，縮小網頁視窗後，Cancel 按鈕和 Forgot password 會由合併的一行變兩行
 
