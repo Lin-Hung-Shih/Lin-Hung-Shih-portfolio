@@ -1,6 +1,6 @@
-<h1>作品集
+<h1>作品集 </h1>
 
-<h2>Login_form_1
+<h2>Login_form_1</h2>
 
 ![Login](https://github.com/Lin-Hung-Shih/Lin-Hung-Shih-portfolio/blob/master/img/login_img.png?raw=true)
 
@@ -12,7 +12,7 @@
 
 加入了一些 RWD 的設計，縮小網頁視窗後，Cancel 按鈕和 Forgot password 會由合併的一行變兩行
 
-<h2>Slideshow
+<h2>Slideshow </h2>
 
 ![Slideshow](https://github.com/Lin-Hung-Shih/Lin-Hung-Shih-portfolio/blob/master/img/slide_img.png?raw=true)
 
