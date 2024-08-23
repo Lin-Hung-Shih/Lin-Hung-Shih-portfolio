@@ -2,6 +2,8 @@
 
 Login_form_1
 
+![Login](https://github.com/Lin-Hung-Shih/Lin-Hung-Shih-portfolio/blob/master/img/login_img.png?raw=true)
+
 不使用任何套件，自己透過 HTML、CSS、JS 建置一個登入按鈕
 
 點選 Login button 即會彈跳出一個登入視窗
@@ -11,6 +13,8 @@ Login_form_1
 加入了一些 RWD 的設計，縮小網頁視窗後，Cancel 按鈕和 Forgot password 會由合併的一行變兩行
 
 Slideshow
+
+![Slideshow](https://github.com/Lin-Hung-Shih/Lin-Hung-Shih-portfolio/blob/master/img/slide_img.png?raw=true)
 
 不使用任何套件，自己透過 HTML、CSS、JS 建置一個幻燈片
 
